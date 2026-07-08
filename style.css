@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+
+header{
+    /* background-color: antiquewhite; */
+}
+.common-button{
+    background-color: #FD6E0A;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.outline-button{
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 22px;
+    color: orange;
+    border: 1px solid #FD6E0A;
+    cursor: pointer;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 32px;
+}
+.logo-r{
+    color: #FD6E0A;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+}
+ul li a{
+    text-decoration: none;
+}
+
+/* hero section style */
+.hero-parent-root{
+    background-color: #fff8f3;
+}
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.hero-left-p-1{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+hero-parent-p2{
+    color: #757575;
+}
+.hero-left h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 15px;
+
+}
+.hero-left-btn-parent{
+    margin-top: 25px;
+}
+
+/* about section style */
+.about-parent{
+    background-color: #fff8f3;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 125px;
+    text-align: center;
+}
+.about-parent p{
+    margin: 20px 0 10px 0;
+    color: #757575;
+    
+}
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+/* what i do section css */
+.what-i-do-parent {
+    margin: 60px auto;
+    text-align: center;
+}
+.what-i-do-parent h2{
+    margin-bottom: 36px;
+    font-weight: bold;
+}
+.what-i-do-parent p{
+    margin-bottom: 36px;
+}
+
+.what-i-do-card-container {
+    
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 23px;
+
+}
+.what-i-do-card{
+    background-color: whitesmoke;
+    border: 2px solid wheat;
+    
+    padding: 10px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.what-i-do-card p{
+    color: #757575;
+
+}
+
+/* amazing work style */
+.my-amazing-parent{
+    /* margin-top: 25px; */
+    text-align: center;
+
+}
+.gallery{
+    margin-top: 20px;
+    gap: 12px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 250px;
+    grid-template-areas: 
+    "one two three"
+    "four two six"
+    "four five six";
+}
+.gallery img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.box-1{
+    grid-area: one;
+}
+.box-2{
+    grid-area: two;
+}
+.box-3{
+    grid-area: three;
+}
+.box-4{
+    grid-area: four;
+}
+.box-5{
+    grid-area: five;
+}
+.box-6{
+    grid-area: six;
+}
+
+/* footer */
+footer{
+    text-align: left;
+    align-items: center;
+    margin-top: 70px !important;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 15px;
+    background-color: #fff8f3;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* footer form{
+    padding: 20px;
+} */
+footer form input, textarea{
+    text-align: left;
+
+    border: 1.5px solid wheat;
+    outline: none;
+    background-color: white;
+    padding: 8px 5px;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.footer-right h2{
+    margin-bottom: 10px;
+}
