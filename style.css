@@ -146,7 +146,7 @@ hero-parent-p2{
 
 /* amazing work style */
 .my-amazing-parent{
-    /* margin-top: 25px; */
+    margin-top: 100px;
     text-align: center;
 
 }
@@ -217,4 +217,56 @@ footer form input, textarea{
 
 .footer-right h2{
     margin-bottom: 10px;
+}
+
+/* a sumary of my resume */
+.border-all{
+    padding: 10px;
+    /* background-color: whitesmoke; */
+    border: 2px solid wheat;
+}
+
+.middle{
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+}
+/* section h2{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 15px;
+} */
+.my-resume{
+    text-align: left;
+    align-items: center;
+    margin-top: 70px !important;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 15px;
+
+}
+.left-resume, h4, h6{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.left-resume, div, p{
+    margin-bottom: 30px;
+    
+}
+.right-resume, h4, h6{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.right-resume, div, p{
+    margin-bottom: 30px;
+    
+}
+.download-cv{
+    text-align: center;
+    align-items: center;
+    padding-bottom: 10px;
+    
 }
